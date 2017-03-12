@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>conding-days-chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Contenu -->
+    <section class="contents">
+
+        <!-- Sidebar -->
+        <aside class="users">
+            <h2>Membres</h2>
+            <ul class="userslist">
+            </ul>
+        </aside>
+        <!-- Messages -->
+        <section class="messages">
+
+        </section>
+    </section>
+
+    <!-- Formulaire d'envoi de messages -->
+    <section class="sending-box">
+        <form class="sending-form">
+            <input type="text" name="username" placeholder="Pseudo">
+            <textarea name="message" placeholder="Message..."></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Librairie jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Librairie socket.io -->
+    <script src="socket.io/socket.io.js"></script>
+    <!-- Fichier javascript qui nous permettra d'intéragir avec le serveur -->
+    <script src="client.js"></script>
+
+</body>
+
+</html>
