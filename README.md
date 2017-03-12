@@ -6,7 +6,7 @@ Master challenge 2 réalisé en formation **coding school**
 
 # Fonctionnalités
 `/quote` afficher la citation du jour  
-`/giphy` afficher un gif aléatoire     
+`/giphy` afficher un gif aléatoire       
 `/gif mot-clé1 mot-clé2` afficher un gif a partir de mots clés   
 
 # Pré-requis
