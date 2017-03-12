@@ -1,5 +1,4 @@
-var socket = io.connect('https://coding-days.herokuapp.com') || 
-    io.connect('https://coding-days-chat.herokuapp.com') ||
+var socket = io.connect('https://coding-days-chat.herokuapp.com') ||
     io.connect('http://localhost:3000');
 
 $(document).ready(function () {
